@@ -1,0 +1,84 @@
+body{
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+}
+.container{
+    
+    position: relative;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    width: 60%;
+    margin: 50px auto;
+    height: 100%;
+    background-color: darkgray;
+    }
+.wrapper{
+    font-family: sans-serif;
+}
+
+.tab{
+    border-color: transparent;
+    font-size: 20px;
+    background: #ffc700;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.tab:focus{
+    outline: none;
+}
+.tabs{
+    display: flex;
+    background-color: #fcc808;
+    
+    
+}
+.tab:hover{
+    background-color: #ffea32;
+}
+
+.content{
+ font-size: 20px;
+    background: #665;
+    padding: 5px 20px;
+    color:#fff;
+    display: none;
+}
+.tab:active{
+    background-color: #C1CEDF;
+}
+
+.name{
+    text-align: center;
+    font-family: sans-serif;
+    color: #fff;
+}
+#photo{
+    width: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.socialpg i {
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    color: #fff;
+    font-size: 40px;
+    
+    
+}
+
+@media (max-width:720px) {
+  .tab{
+    width:100%;/*The width is 100%, when the viewport is 800px or smaller*/
+    }
+    p{
+        font-size: 3vw;
+     }
+}
+

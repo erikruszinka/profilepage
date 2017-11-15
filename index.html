@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+    <title>My Profile</title>
+</head>
+<body>
+   
+    <div class="container">
+        <div class="profphoto">
+            <img src="HD.jpg" id="photo" alt="">
+            <div class="name"><h1>Erik Ruszinka</h1></div>
+        </div>
+        <div class="wrapper">
+        
+            <button class="tab" id="defaultOpen" onclick="openMe('first')" >About Me</button>           
+            <button class="tab tab-two" onclick="openMe('second')" >My Skills</button>
+            <button class="tab" onclick="openMe('third')" >My Hobbies</button>
+
+        
+        <div id="first" class="content">
+            <h2>About me</h2>
+            <p>First Name: Erik</p>
+            <p>Last Name: Ruszinka</p>
+            <p>E-mail: erik.ruszinka@akademiasovy.sk</p>
+            <p>Telephone: +421 944 923 459</p>
+        </div>
+        <div id="second" class="content">
+            <h2>My Skills</h2>
+            <p>IT Skills</p>
+            <p>-I have experience in web-development(HTML5, CSS3, JavaScript) and i have achieved certificates in HTML5 and CSS3.</p>
+            <p>-I have intermediate knowledge in programming C.</p>
+            <p>Other Skills</p>
+            <p>-Playing the guitar</p>
+            <p>-Dancing</p>
+        </div>
+        <div id="third" class="content">
+            <h2>My Hobbies</h2>
+            <p>I am a versatile person. My first hobby is dancing latin dances. The second hobby is playing the guitar, but i am fond of programming and i like to develope some new things in spare time.</p>
+        </div>
+        </div>
+        <div class="socialpg">
+            <a href="https://www.facebook.com/profile.php?id=100006586570108"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com/erchi.official/"><i class="fa fa-instagram"></i></a>
+            <a href=""><i class="fa fa-youtube"></i></a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
